@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Home */
+.HomePage
+{
+    width: 100% ;
+    height: 800px;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    text-align: center;
+   
+   
+
+}
+.home
+{
+    padding: 220px;
+    font-size: 25px ;
+    color: #FFFFFF;
+}
+.home button
+{
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+    border-radius: 5px;
+}
+.learn
+{
+    background-color: #8E7754;
+    border-color: transparent;
+}
+.Contactb
+{
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+
+/* Who we are? */
+.Who-we_are
+{
+    color:#686868;
+    background-color:#FFFFFF;
+}
+.about
+{
+
+    width: 45%  ;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 30px;
+}
+.about img 
+{
+    width: 100%;
+}
+.about ul
+{
+    padding: 15px 0px;
+    list-style-type: none;
+}
+.about2 img
+{
+    width: 5%;
+    background-color: rgb(255, 246, 236);
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+.about2 ul {
+    float: left;
+    list-style-type: none;
+
+}
+.about2 p {
+    display: inline-block
+}
+.about2
+{
+    width: 45%  ;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 30px;
+}
+/* OurLocation */
+.Our_Location
+{
+    background-color: #F8F8F8;
+    color:#686868 ;
+    
+}
+.OurLocation
+{
+    width: 45%  ;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 30px;
+}
+.OurLocation img 
+{
+    width: 100%;
+}
+/* Our Baking */
+.Our_Baking
+{
+    padding: 100px 40px;
+    margin: 50px 30px;
+    text-align: center;
+}
+.OurBaking
+{
+    width: 30%;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    
+}
+.OurBaking img
+{
+    width: 80%;
+}
+
+.clear-fix
+{
+    clear: both;
+}
+/* Contact Information */
+.Contact_Information
+{
+    background-color: #F8F8F8;
+}
+.ContactInformation
+{
+
+    width: 45% ;
+    float: left;
+    vertical-align: middle;
+    margin: 50px 30px;
+    text-align: left;
+}
+.ContactInformation iframe
+{
+    width: 100%;
+}
+.ContactInformation img
+{
+    width: 35px;
+    background-color: bisque;
+    
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: left;
+    display: inline-block;
+}
+.ContactInformation p
+{
+    display: inline-block;
+}
+.ContactInformation ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* contact us */
+.wh_Line
+{
+    background-color: #686868;
+    width: 150px ;
+    height: 1px;
+}
+.Contact
+{
+    background-color: #403D38;
+    background-image: url(images/contact-details-map1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 30px 100px; 
+}
+.float
+{
+    width: 20%;
+    float: left;
+    margin: 70px 30px;
+    padding: 70px 0px;
+}
+.float ul 
+{
+    list-style-type: none;
+    color: #949494;
+    font-size: 18px;
+}
+.float h4
+{
+    font-size: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+/* Footer */
+.footer
+{
+    background-color: #353330;
+    background-repeat: no-repeat;
+    background-image: url(images/bakery-light-1.png);
+    background-position: center;
+    text-align: center;
+    height: 200px;
+}
+.footer p 
+{
+    padding-top: 160px;
+}
+
+
+
+@media screen and (max-width : 600px)
+
+ {
+    body
+    {
+        background-color: aqua;
+    }    
+}
+@media screen and (min-width : 600px)
+
+ {
+    body
+    {
+        background-color: rgb(255, 0, 0);
+    }    
+}@media screen and (min-width : 768px)
+
+{
+   body
+   {
+       background-color: rgb(255, 0, 221);
+   }    
+}@media screen and (min-width : 992px)
+
+{
+   body
+   {
+       background-color: rgb(102, 0, 255);
+   }    
+}
